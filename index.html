@@ -1,0 +1,112 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="James McCann">
+    <meta name="description" content="The personal site of James McCann">
+    <meta name="twitter:description" content="The personal site of James McCann">
+    <meta name="og:description" content="The personal site of James McCann">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jamesmccann.nz</title>
+    <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+  </head>
+  <body class="ph3 pv5 helvetica">
+    <main class="mw7">
+      <section class="flex items-start">
+        <img src="./hdr.jpg" style="width:100%;max-width:290px;" />
+        <main class="w-100 pl4 lh-copy">
+          <div class="measure">
+            <h1 class="f3 fw4 mt0 mb2">Hi, <span class="bb bw1 b--black">I'm James</span>.</h1>
+            <p class="f4 mv4">
+              I'm a professional software engineer and amateur urbanist from New Zealand.
+            </p>
+            <p class="f5 mv4">
+              I've lived and worked in Wellington and Amsterdam as a Senior Engineer and Technical Lead on modern fintech and consumer lending, distributed systems, and native mobile applications. I've been lucky to work with amazing people at
+              <a class="link black bb bw1 b--black" href="https://monzo.com">Monzo</a>,
+              <a class="link black bb bw1 b--black" href="https://messagebird.com">MessageBird</a>,
+              <a class="link black bb bw1 b--black" href="https://consumer.org.nz">Consumer New Zealand</a>, and
+              <a class="link black bb bw1 b--black" href="https://ikegps.com">ikeGPS</a>.
+            </p>
+            <p>
+              I've recently moved back to New Zealand and I'm currently open for something new.
+            </p>
+            <p>
+              If you think I'd be a good fit for your project or company please reach out on
+              <a href="https://twitter.com/jmccnz" class="link black bb bw1 b--black">Twitter</a> or at jmccnz@gmail.com.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="db mv3 bb b--black-10" style="border-width:1px"></div>
+
+      <div class="">
+        <h2 class="dib f3 fw4 bw1 b--black">Projects and experience</h2>
+
+        <ul class="list pl0">
+          <li class="db flex mb3">
+            <div class="tr" style="flex:0 0 30%">
+              <h4 class="mv0 f5">Kwikky (TBC)</h4>
+              <p class="f6">Present</p>
+            </div>
+            <div class="ml4 f6 lh-copy flex-auto">
+              <p class="mt0">
+                I'm currently exploring a new service for Kiwis to easily make payments without cards through Open Banking.
+              </p>
+              <p>
+                This project is in early stages. If it sounds interesting to you, please get in touch!
+              </p>
+            </div>
+          </li>
+          <li class="db flex mb3">
+            <div class="tr" style="flex:0 0 30%">
+              <h4 class="mv0 f5">Monzo Bank</h4>
+              <a class="link black bb bw1 b--black" href="https://monzo.com">monzo.com</a>
+              <p class="f6">Amsterdam, 2019-2022</p>
+            </div>
+            <div class="ml4 f6 lh-copy flex-auto">
+              <p class="mt0">
+                Monzo is an app-based challenger bank in the UK, working to re-invent personal and business banking on a modern banking platform built in-house. I worked at Monzo in consumer borrowing as the Technical Lead for our loans and overdrafts products.
+              </p>
+              <p>
+                In my time at Monzo I was focused on supporting a fantastic cross-fucntional team of engineers and analysts to scale our lending systems and customer-facing borrowing experience. I've worked on decisioning engines, interest charging and reconciliation, and led our team to be one of the first retail banks in the United Kindom to use Open Banking for income verification on borrowing applications.
+              <p>
+              <p>
+                We worked primarily in Golang, with a <a class="link black bb bw1 b--black" href="https://www.infoq.com/presentations/monzo-microservices/">famously large micro-services architecture</a> on top of Cassandra, Kafka, NSQ, GCS, BigQuery, and others.
+              </p>
+            </div>
+          </li>
+          <li class="db flex mb3">
+            <div class="tr" style="flex:0 0 30%">
+              <h4 class="mv0 f5">MessageBird</h4>
+              <a class="link black bb bw1 b--black" href="https://messagebird.com">messagebird.com</a>
+              <p class="f6">Amsterdam, 2017-2019</p>
+            </div>
+            <div class="ml4 f6 lh-copy" style="flex-basis:fit-content">
+              <p class="mt0">
+                MessageBird builds products and APIs for companies to integrate their software with communication channels like SMS, WhatsApp, Facebook Messenger and others.
+              </p>
+              <p class="mt0">
+                I worked as the Technical Lead on a team focused on omni-channel conversation APIs, and we were one of the first services to offer a turn-key solution for our customers to configure WhatsApp's Business API in 2019. I primarily worked in Golang and React on top of Kubernetes and GCP services like PubSub, CloudSQL, and Spanner.
+              </p>
+            </div>
+          </li>
+          <li class="db flex">
+            <div class="tr" style="flex:0 0 30%">
+              <h4 class="mv0 f5">Consumer New Zealand</h4>
+              <a class="link black bb bw1 b--black" href="https://consumer.org.nz">consumer.org.nz</a>
+              <p class="f6">Wellington, 2015-2017</p>
+            </div>
+            <div class="ml4 f6 lh-copy" style="flex-basis:fit-content">
+              <p class="mt0">
+              Consumer.org.nz is New Zealand's largest consumer advocacy non-profit organisation. They also run Powerswitch (<a class="link black bb bw1 b--black" href="https://powerswitchorg.nz">powerswitch.org.nz</a>), helping Kiwi's find and switch to the best electricity provider for them anywhere in the country.
+              </p>
+              <p>
+                In 2016 I worked as the technical lead with a small team to rebuild Powerswitch from the ground up and help it scale to a new and more complex electricity and gas pricing market. We built a completely new back-office system for maintaining plans and pricing structure, and a new mobile-first front-end and questionnaire that helped customers more easily learn what they could save. Most of this work was in Ruby, Node, and React, on top of Postgres and EC2.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
